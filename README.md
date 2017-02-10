@@ -24,12 +24,12 @@ From Wikipedia:
 * If the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.
   * Assume an example of an account number "7992739871" that will have a check digit added, making it of the form 7992739871x:
   ```
-  Account number  7 9 9 2 7 3 9 8 7 1 x
-  Double every other  7 18  9 4 7 6 9 16  7 2
-  Sum digits  7 9 9 4 7 6 9 7 7 2 x
-  ```
-* The sum of all the digits in the third row is 67+x.
+  Account number      7  9  9  2  7  3  9  8  7  1  x
+  Double every other  7 18  9  4  7  6  9 16  7  2  x
+  Sum digits          7  9  9  4  7  6  9  7  7  2  x
 
+  The sum of all the digits in the third row is 67+x.
+  ```
 * The check digit (x) is obtained by computing the sum of the non-check digits then computing 9 times that value modulo 10 (in equation form, (67 × 9 mod 10)). In algorithm form:
 
 * Compute the sum of the non-check digits (67).
