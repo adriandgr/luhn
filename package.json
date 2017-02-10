@@ -1,0 +1,29 @@
+{
+  "name": "luhn",
+  "version": "1.0.0",
+  "description": "Luhn Checker",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriandgr/luhn.git"
+  },
+  "keywords": [
+    "algorithm"
+  ],
+  "author": "Adrian Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriandgr/luhn/issues"
+  },
+  "homepage": "https://github.com/adriandgr/luhn#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
